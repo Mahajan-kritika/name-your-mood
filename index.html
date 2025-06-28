@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Mood Wall</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 My Mood Wall</h1>
+    <p class="subtitle">Express your mood with colors, words, or emojis</p>
+    
+    <div class="mood-input">
+      <input type="color" id="colorPicker" value="#6c5ce7">
+      <input type="text" id="moodText" placeholder="Type your mood... 😊" maxlength="20">
+      <button id="addMood">Add Mood</button>
+    </div>
+    
+    <div class="mood-board" id="moodBoard">
+      <!-- Moods will appear here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
